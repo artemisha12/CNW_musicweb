@@ -1,0 +1,20 @@
+package model.bo;
+
+import java.util.ArrayList;
+import model.bean.Album;
+import model.dao.AlbumDAO;
+
+public class AlbumBO {
+    private AlbumDAO dao = new AlbumDAO();
+
+    public ArrayList<Album> getAllAlbums() {
+        return dao.getAll();
+    }
+    public Album getAlbumById(int albumId) {
+        return AlbumDAO.getAlbumById(albumId);
+    }
+
+    public ArrayList<Song> getSongsOfAlbum(int albumId) {
+        return SongDAO.getSongsByAlbum(albumId);
+    }
+}
