@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+D:\NAM_3(2025-2026)\WebMusic\MusicWeb\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3000483254.index
